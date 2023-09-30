@@ -1,0 +1,181 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* inter fontface */
+@font-face {
+    font-family: 'Inter-thin';
+    font-style:  normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("./../fonts/english/inter/woff2/Inter-Thin.woff2") format("woff2"),
+         url("./../fonts/english/inter/woff/Inter-Thin.woff") format("woff");
+  }
+@font-face {
+    font-family: 'Inter-thinitalic';
+    font-style:  italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url("./../fonts/english/inter/woff2/Inter-ThinItalic.woff2") format("woff2"),
+         url("./../fonts/english/inter/woff/Inter-ThinItalic.woff") format("woff");
+  }
+@font-face {
+    font-family: 'Inter-extralight';
+    font-style:  normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("./../fonts/english/inter/woff2/Inter-ExtraLight.woff2") format("woff2"),
+         url("./../fonts/english/inter/woff/Inter-ExtraLight.woff") format("woff");
+  }
+@font-face {
+    font-family: 'Inter-extralightItalic';
+    font-style:  italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url("./../fonts/english/inter/woff2/Inter-ExtraLightItalic.woff2") format("woff2"),
+         url("./../fonts/english/inter/woff/Inter-ExtraLightItalic.woff") format("woff");
+  }
+@font-face {
+    font-family: 'Inter-light';
+    font-style:  normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("./../fonts/english/inter/woff2/Inter-light.woff2") format("woff2"),
+         url("./../fonts/english/inter/woff/Inter-light.woff") format("woff");
+  }
+@font-face {
+    font-family: 'Inter-lightitalic';
+    font-style:  italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url("./../fonts/english/inter/woff2/Inter-lightItalic.woff2") format("woff2"),
+         url("./../fonts/english/inter/woff/Inter-lightItalic.woff") format("woff");
+  }
+@font-face {
+    font-family: 'Inter-regular';
+    font-style:  normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("./../fonts/english/inter/woff2/Inter-regular.woff2") format("woff2"),
+         url("./../fonts/english/inter/woff/Inter-regular.woff") format("woff");
+  }
+@font-face {
+    font-family: 'Inter-regularitalic';
+    font-style:  italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url("./../fonts/english/inter/woff2/Inter-Italic.woff2") format("woff2"),
+         url("./../fonts/english/inter/woff/Inter-Italic.woff") format("woff");
+  }
+@font-face {
+    font-family: 'Inter-medium';
+    font-style:  normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("./../fonts/english/inter/woff2/Inter-Medium.woff2") format("woff2"),
+         url("./../fonts/english/inter/woff/Inter-Medium.woff") format("woff");}
+@font-face {
+    font-family: 'Inter-mediumitalic';
+    font-style:  italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url("./../fonts/english/inter/woff2/Inter-MediumItalic.woff2") format("woff2"),
+         url("./../fonts/english/inter/woff/Inter-MediumItalic.woff") format("woff");
+  }
+@font-face {
+    font-family: 'Inter-semibold';
+    font-style:  normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("./../fonts/english/inter/woff2/Inter-SemiBold.woff2") format("woff2"),
+         url("./../fonts/english/inter/woff/Inter-SemiBold.woff") format("woff");}
+@font-face {
+    font-family: 'Inter-semibolditalic';
+    font-style:  italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url("./../fonts/english/inter/woff2/Inter-SemiBoldItalic.woff2") format("woff2"),
+         url("./../fonts/english/inter/woff/Inter-SemiBoldItalic.woff") format("woff");
+  }
+@font-face {
+    font-family: 'Inter-bold';
+    font-style:  normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("./../fonts/english/inter/woff2/Inter-Bold.woff2") format("woff2"),
+         url("./../fonts/english/inter/woff/Inter-Bold.woff") format("woff");}
+@font-face {
+    font-family: 'Inter-bolditalic';
+    font-style:  italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url("./../fonts/english/inter/woff2/Inter-BoldItalic.woff2") format("woff2"),
+         url("./../fonts/english/inter/woff/Inter-BoldItalic.woff") format("woff");
+  }
+@font-face {
+    font-family: 'Inter-extrabold';
+    font-style:  normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("./../fonts/english/inter/woff2/Inter-ExtraBold.woff2") format("woff2"),
+         url("./../fonts/english/inter/woff/Inter-ExtraBold.woff") format("woff");}
+@font-face {
+    font-family: 'Inter-extrabolditalic';
+    font-style:  italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url("./../fonts/english/inter/woff2/Inter-ExtraBoldItalic.woff2") format("woff2"),
+         url("./../fonts/english/inter/woff/Inter-ExtraBoldItalic.woff") format("woff");
+  }
+  @font-face {
+    font-family: 'Inter-black';
+    font-style:  normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("./../fonts/english/inter/woff2/Inter-Black.woff2") format("woff2"),
+         url("./../fonts/english/inter/woff/Inter-Black.woff") format("woff");}
+@font-face {
+    font-family: 'Inter-blackitalic';
+    font-style:  italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url("./../fonts/english/inter/woff2/Inter-BlackItalic.woff2") format("woff2"),
+         url("./../fonts/english/inter/woff/Inter-BlackItalic.woff") format("woff");
+  }
+
+/* firacode fontface */
+@font-face {
+    font-family: 'firacode-light';
+    font-style:  normal;
+    font-weight: normal;
+    src: url("./../fonts/english/firacode/woff2/FiraCode-Light.woff2") format("woff2"),
+         url("./../fonts/english/firacode/woff/FiraCode-Light.woff") format("woff");
+}
+@font-face {
+    font-family: 'firacode-regular';
+    font-style:  normal;
+    font-weight: normal;
+    src: url("./../fonts/english/firacode/woff2/FiraCode-Regular.woff2") format("woff2"),
+         url("./../fonts/english/firacode/woff/FiraCode-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: 'firacode-medium';
+    font-style:  normal;
+    font-weight: normal;
+    src: url("./../fonts/english/firacode/woff2/FiraCode-Medium.woff2") format("woff2"),
+         url("./../fonts/english/firacode/woff/FiraCode-Medium.woff") format("woff");
+}
+@font-face {
+    font-family: 'firacode-semibold';
+    font-style:  normal;
+    font-weight: normal;
+    src: url("./../fonts/english/firacode/woff2/FiraCode-SemiBold.woff2") format("woff2"),
+         url("./../fonts/english/firacode/woff/FiraCode-SemiBold.woff") format("woff");
+}
+@font-face {
+    font-family: 'firacode-bold';
+    font-style:  normal;
+    font-weight: normal;
+    src: url("./../fonts/english/firacode/woff2/FiraCode-Bold.woff2") format("woff2"),
+         url("./../fonts/english/firacode/woff/FiraCode-Bold.woff") format("woff");
+}
